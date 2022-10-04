@@ -1,167 +1,35 @@
-# softonix-guidelines-vite
+# Section #1 - tools & technologies
 
-This template should help get you started developing with Vue 3 in Vite.
+### Goal
+This section represents onboarding to the tools and technologies Softonix is used for building the projects. You need to understand how correctly chosen tools can speed up the development time. What is the proper way of using IDE, learn shortcuts, plugins and extensions. You will understand the skeleton for modern web development tooling: Node.js and it’s package manager: NPM
 
-## Recommended IDE Setup
+### Tech plan
+- IDE Workflow (Eslint, Volar and VSCode config)
+- NPM
+- ESLint
+- Tech stack, base project intro
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Materials for the section
+- Read Why VSCode? [link](https://code.visualstudio.com/docs/editor/whyvscode) 
+- Install VSCode IDE: [link](https://code.visualstudio.com/download)
+- Install Node.js LTS: [link](https://nodejs.org/uk/download/)
+- Read What is NPM? [link](https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/)
+- Read Why is linter important for development? [link](https://cloudfour.com/thinks/code-linting-for-web-designers/)
+Practice top shortcuts for VSCode: [link](https://www.desuvit.com/11-vscode-keyboard-shortcuts-that-will-boost-your-productivity/)
 
-## Type Support for `.vue` Imports in TS
+### Video Material
+TBA
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-
-# Softonix Frontend Guidelines
-Due to standardization purposes among our teams in Softonix, we would like to have a pretty strict standard project structure based on top of Vue.js.
-
-This repository includes Vue3 + Typescript + Vite structure example. 
-
-Besides this, we also propose a list of frontend best practices which we must follow for consistency reasons.
-
-### Prerequisition
-- Familiarity with the command line
-- Install Node.js version 16.0 or higher
-- Create .env file in the project root and place VITE_API_URL=https://jsonplaceholder.typicode.com there.
-
-### Vue project structure
-- Vue3 + Typescript + Vite project structure: [link](https://github.com/Softonix/frontend-guidelines/tree/main/vue3_ts)
-
-Vue project structure:
-
-    dts                                # definition files
-    │
-    public                             # public resources
-    │
-    src
-    ├── assets
-    │   │── images                     # global images 
-    │   └── styles                     # scss styles including element-reset, tailwind, etc.
-    │ 
-    ├── components
-    │   ├── editor                     # BusinessLogic component, shared acrosss the application which require a folder
-    │   │   ├── Editor.vue             # Main editor component         
-    │   │   ├── EditorBar.vue    
-    │   │   └── editor.ts              # Additional logic of Editor component, should be outsourced to ts file
-    │   ├── Avatar.vue
-    │   ├── Pagination.vue
-    │   ├── Tabs.vue
-    │   └── MenuList.vue               # Generic Menu List
-    │  
-    ├── composables                    # Composition functions used for logic sharing. Can include setup related methods or be just a pure helper function
-    │   ├── useFormConfig.ts           # Set of helpers function related to forms and their validation
-    │   └── useGlobalProperties.ts     # Composable for getting global properties from Vue instance
-    │  
-    ├── layouts                        # Nuxt-like layouts
-    │   ├── BlankLayout.vue            # Blank layout (no header, no sidebar)
-    │   └── DefaultLayout.vue          # Default layout for most of the pages
-    │ 
-    ├── plugins                    
-    │   ├── index.ts                   # exports all plugins
-    │   ├── i18n                       # Library for internationalization
-    │   ├── portal                     # Set of components for dynamic dom elements teleportation
-    │ 
-    ├── router         
-    │   ├── index.ts                   # Exports router, invokes guards
-    │   ├── route-guard.ts             # Declares all router guards
-    │   ├── route-names.ts             # Declares all route names object
-    │   └── routes.ts                  # Declares all routes
-    │ 
-    ├── services     
-    │   ├── index.ts                   # Export * from all services accross an app
-    │   ├── api.service.ts             # Axios config, interceptors. If needed may be moved to folder
-    │   ├── tags.service.ts            # Tags service - tags used across the app and doesn't have own page
-    │   └── auth.service.ts            # Auth service - user data, tokens used across the app, sidebar, settings
-    │ 
-    ├── store
-    │   ├── modules                        
-    │       ├── tags.store.ts          # Tags module - tags used across the app and doesn't have own page
-    │       └── auth.store.ts          # Auth module - user data, tokens used across the app, sidebar, settings
-    │   ├── create-store.ts            # Initializes store
-    │   ├── index.ts                   # Exports all modules
-    │ 
-    ├── types
-    │   ├── general.types.ts           # Some general types used everywhere in the project
-    │   ├── index.ts                   # Exports all types
-    │ 
-    ├── views
-    │   ├── settings     
-    │   │   ├── components  
-    │   │   │   └── SettingsFilter.vue # Components, related only to settings pages        
-    │   │   ├── settings.routes.ts     # Route file with declaration for all settings pages.
-    │   │   ├── settings.service.ts    # Service with API for settings pages 
-    │   │   ├── settings.translations.ts # Settings specific types
-    │   │   ├── settings.store.ts      # Store for all settings pages
-    │   │   ├── Settings.vue           # Settings root page
-    │   │   └── SettingsDetails.vue    # SettingsDetails page
-    │   └── users       
-    │   │   ├── users.routes.ts     
-    │   │   ├── users.service.ts   
-    │   │   ├── users.store.ts  
-    │   │   ├── Users.vue  
-    │   │   └── UserDetails.vue  
-    └── ...
-
-### Store - Services relations
-Very important to keep in mind - we use **/services/** ... not just for API calls, but also for any logic related to that service data.
-
-### Naming convention
-
-- Name folders with kebab case e.g. human-resources and Vue components with PascalCase like: HumanResources.vue
-- In Vue's `<template>` write components capitalized, e.g: `<Header />` instead of: `<header>`
-- If you want to create a Button component, name it either `ButtonModule.vue` or `ButtonComponent` or `AppButton` to prevent conflicts with native HTML button tag.
-- Name root-level components exactly the same as route name: Login.vue === /auth/login route
-- Name ts files with kebab-case, like: `some-dummy.service.ts` instead of `someDummy.service.ts`
-- Name all files inside `/services/` and `/store/` with middleware names like: `auth.service.ts` and `auth.store.ts` - it will help you to quickly determine what type of file you are editing now
-- Route name must be provided in `camelCase` to be the same as its key.
-
-### Best practices
-
-- Use Vue documentation for [conventions and best practices](https://vuejs.org/guide/reusability/composables.html#conventions-and-best-practices)
-- Use Vue linter recommended extensions (see snippets below)
-- Feel free to split your structure into subfolders. For example, you have a lot of APIs axios interceptors -- please create a folder: `/services/api/` & put the file `interceptors.ts` inside of it. Move all your interceptors inside this file. Rename file `api.service.ts` into `index.ts` and move into `/services/api` as well.
-- Use tailwind CSS framework
-- Write page/components relative CSS inside .vue files, and keep only general styles inside /assets/styles/
-- Always ask the Lead Developer or your Team Leader about project structure best practices and ask for advice.
-- Strictly recommended: Do not register your app components globally, instead import them and register locally whenever you are going to use them.
-- Import order inside Vue file is important: 3rd party libraries, then your .ts files, then components.
-- Use routeNames object for IDE assistance during names usage.
-- Do not use: `export default settingsService` , instead use `export const settingsService`. Always omit default export.
-
-### Linter recommended snippet for Vue3 + TS
-- Please check .eslintrc.cjs file.
+### Section Playground
+- Branch name: [`section-1-tooling`](https://github.com/Softonix/softonix-incubator/tree/section-1-tooling)
+- Tag1: `#section-1-tooling-start`
+-- Represent a clean application with ESLint installed with a config file.
+-- JSON file for VSCode configuration
+- Tag2: `#section-2-tooling-end`
+-- Installed all extensions: Volar, ESlint, Vue Peek (Needed for later section: #5 Vue).
+-- Install project packages and run the project: npm install & npm run dev
+-- Updated configuration of VSCode based on config file.
+-- Turned off built-in Typescript in VSCode.
+-- JS Examples with bad and good linting. Showcased examples on how to format files using VSCode.
+-- JS Examples with navigation across the different files and how IDE can help. Search in file, search file, rename variables, show `Go back / Go forward` examples.
 
