@@ -6,32 +6,58 @@
   </div>
 
   <div class="p-4 h-[2000px] flex flex-col">
-    <ul class="list-disc list-inside">
-      <li v-for="country in countryService.countries" :key="country.id">
+    <p v-if="loading">Loading...</p>
+    <p v-else-if="!countries">Error happened during countries fetchclre...</p>
+
+    <ul v-else class="list-disc list-inside">
+      <li v-for="country in countries" :key="country.id">
         {{ country.name }}
 
         <ol>
-          <li v-for="city in country.cities" :key="city" class="ml-4">
-            - {{ city }}
+          <li v-for="city in country.cities" v-show="hashedCities[city]?.name" :key="city" class="ml-4">
+            - {{ hashedCities[city]?.name }}
           </li>
         </ol>
       </li>
     </ul>
-
     <div id="bottm" class="mt-auto">Bottom</div>
-
-    <!-- <div>
-      <pre>
-        <div v-html="JSON.stringify(countryService.citiesHashed, null, 2)" />
-      </pre>
-    </div> -->
   </div>
 </template>
 
 <script lang="ts" setup>
 import { countryService } from '@/examples/data-preparation'
 
-// const countries = countryService.prepareCountriesList()
+const countries = ref()
+const cities = ref()
+const hashedCities = ref<any>({})
+const loading = ref(false)
+
+const loadData = () => {
+  loading.value = true
+  return Promise.all([countryService.getCountries(), countryService.getCities()])
+    .then((res) => {
+      countries.value = res[0]
+      cities.value = res[1]
+      hashedCities.value = countryService.citiesHashed(res[1])
+    }).finally(() => (loading.value = false))
+}
+
+const loadDataSettled = () => {
+  loading.value = true
+  return Promise.allSettled([countryService.getCountries(), countryService.getCities()])
+    .then((res) => {
+      if (res[0].status === 'fulfilled') {
+        countries.value = res[0].value
+      }
+      if (res[1].status === 'fulfilled') {
+        cities.value = res[1].value
+        hashedCities.value = countryService.citiesHashed(res[1].value)
+      }
+    }).finally(() => (loading.value = false))
+}
+
+loadDataSettled()
+
 </script>
 
 <style lang="scss">
