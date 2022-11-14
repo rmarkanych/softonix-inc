@@ -13,4 +13,4 @@ export const arrayHandler = (num) => {
 
 const array = [1, 2, 3, 4, 5]
 
-console.log(array)
+Promise.allSettled(array.map(el => arrayHandler(el).then(r => console.log(r))))

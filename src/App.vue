@@ -29,6 +29,8 @@
 <script lang="ts" setup>
 import { countryService } from '@/examples/data-preparation'
 import { intersectionService } from '@/examples/intersection'
+import { arrayHandler } from '@/homework/homework-1-promises'
+import { sumMemoized } from '@/homework/homework-2-memoize'
 
 const countries = ref()
 const cities = ref()
