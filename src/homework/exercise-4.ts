@@ -20,28 +20,29 @@ interface IUser {
   id: number
   name: string
 }
-
-class Collection {
-  private elements = []
+class Collection<T> {
+  private elements: T[] = []
 
   constructor (elements = []) {
     this.elements = elements
   }
 
-  get () {
+  get (): T[] {
     return this.elements
   }
 
-  add (el, type) {
-    // ...
+  add (el: T, type?: string): void {
+    if (type === 'prepend') {
+      this.elements.unshift(el)
+    } else this.elements.push(el)
   }
 
-  contains (predicate) {
-    // ...
+  contains (predicate: (el: T) => boolean): boolean {
+    return this.elements.some(predicate)
   }
 
-  delete (predicate) {
-    // ...
+  delete (predicate: (el: T) => boolean): T[] {
+    return this.elements.filter(el => !predicate(el))
   }
 }
 
@@ -51,9 +52,9 @@ stringCollection.contains(el => el === 'Hello, TS')
 
 const strings = stringCollection.get()
 
-const userCollection = new Collection()
+const userCollection = new Collection<IUser>()
 userCollection.add({ id: 1, name: 'Viktor' })
-userCollection.remove(el => el.id === 1)
+userCollection.delete(el => el.id === 1)
 const users = userCollection.get()
 
 export {
