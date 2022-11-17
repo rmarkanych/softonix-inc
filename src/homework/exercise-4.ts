@@ -42,7 +42,7 @@ class Collection<T> {
   }
 
   delete (predicate: (el: T) => boolean): T[] {
-    return this.elements.filter(el => !predicate(el))
+    return this.elements.filter(predicate)
   }
 }
 
