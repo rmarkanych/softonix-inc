@@ -31,23 +31,23 @@ class Collection<T> {
     return this.elements
   }
 
-  add (el: T, type?: string): void {
-    if (type === 'prepend') {
+  add (el: T, type: 'append' | 'prepend' = 'append'): void {
+    if (type === 'append') {
       this.elements.unshift(el)
     } else this.elements.push(el)
   }
 
-  contains (predicate: (el: T) => boolean): boolean {
+  contains (predicate: (el: T) => boolean) {
     return this.elements.some(predicate)
   }
 
-  delete (predicate: (el: T) => boolean): T[] {
-    return this.elements.filter(predicate)
+  delete (predicate: (el: T) => boolean) {
+    this.elements = this.elements.filter(predicate)
   }
 }
 
-const stringCollection = new Collection()
-stringCollection.add(['Hello, World!'])
+const stringCollection = new Collection<string>()
+stringCollection.add('Hello, World!')
 stringCollection.contains(el => el === 'Hello, TS')
 
 const strings = stringCollection.get()
