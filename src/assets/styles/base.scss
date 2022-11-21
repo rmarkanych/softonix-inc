@@ -5,10 +5,12 @@
 
 html {
   font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 body {
-  @apply font-main text-base text-primary bg-gray-light;
+  @apply font-inter text-base text-primary bg-yellow;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -24,7 +26,9 @@ a {
 img, svg {
   display: initial;
 }
-
+button {
+  cursor: pointer;
+}
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) {
   input {
     @apply text-base #{!important}

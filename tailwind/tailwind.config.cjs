@@ -26,17 +26,25 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: '#E5E5E5',
+      primary: '#5B5F62',
+      blue: '#2E476B',
       gray: '#6b7280',
-      'gray-light': '#f3f4f6',
-      'gray-ultra-light': '#e5e7eb',
-      'gray-medium': '#9ca3af',
-      'gray-dark': '#374151'
+      orange: '#F66F4D',
+      yellow: '#FAF8ED',
+      mainTitle: '#2D3134',
+      locationColor: '#FDFEFF',
+      locationTxt: '#9498A4'
     },
     fontFamily: {
-      main: ['Inter', 'sans-serif']
+      inter: ['Inter', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
+      sen: ['Sen', 'sans-serif']
     },
-    extend: {}
+    extend: {
+      boxShadow: {
+        '3xl': '0px 24px 90px rgba(192, 188, 161, 0.22)'
+      }
+    }
   },
   plugins: []
 }
