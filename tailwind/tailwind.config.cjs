@@ -33,7 +33,9 @@ module.exports = {
       yellow: '#FAF8ED',
       mainTitle: '#2D3134',
       locationColor: '#FDFEFF',
-      locationTxt: '#9498A4'
+      locationTxt: '#9498A4',
+      divider: '#EAEAEB',
+      formBg: '#FFD482'
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
@@ -42,7 +44,12 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        '3xl': '0px 24px 90px rgba(192, 188, 161, 0.22)'
+        '3xl': '0px 24px 90px rgba(192, 188, 161, 0.22)',
+        '4xl': ' 0px 5px 13px rgba(222, 45, 0, 0.7)'
+      },
+      backgroundImage: {
+        formImg: "url('../../assets/images/form-icon.svg')",
+        pseudo: 'linear-gradient(159.99deg, #FFD482 13.35%, #FFBE82 118.92%)'
       }
     }
   },
