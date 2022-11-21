@@ -47,6 +47,12 @@ module.exports = {
         '3xl': '0px 24px 90px rgba(192, 188, 161, 0.22)',
         '4xl': ' 0px 5px 13px rgba(222, 45, 0, 0.7)'
       },
+      fontSize: {
+        paragraph: '14px'
+      },
+      margin: {
+        useful: '14px'
+      },
       backgroundImage: {
         formImg: "url('../../assets/images/form-icon.svg')",
         pseudo: 'linear-gradient(159.99deg, #FFD482 13.35%, #FFBE82 118.92%)'

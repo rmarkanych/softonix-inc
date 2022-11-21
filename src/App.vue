@@ -145,7 +145,7 @@
             <p class="pl-[26px] pr-[54px] pb-[26px] text-[21px] leading-[29px]">Succes Journey</p>
           </li>
           <li class="min-w-[166px] min-h-[178px] bg-white rounded-[14px]">
-            <p class="pt-[30px] pl-[35px] pr-[48px] mb-[18px] text-[46px] text-orange leading-[46px] font-semibold">16+</p>
+            <p class="pt-[30px] pl-[35px] pr-12 mb-[18px] text-[46px] text-orange leading-[46px] font-semibold">16+</p>
             <p class="pl-[35px] pr-[45px] pb-[26px] text-[21px] leading-[29px]">Awards Winning</p>
           </li>
           <li class="min-w-[166px] min-h-[178px] bg-white rounded-[14px]">
@@ -171,13 +171,13 @@
         </div>
       </div>
       <ul class="destination-list gap-[30px] pb-5">
-        <li class="max-w-[388px] max-h-[440px]  border-2 border-white rounded-2xl shadow hover:shadow-3xl cursor-pointer">
+        <li class="max-w-[388px] max-h-[440px] border-2 border-white rounded-2xl shadow hover:shadow-3xl cursor-pointer">
           <div class="pt-3 px-3">
             <img src="./assets/images/destination-1.png" alt="sea">
           </div>
           <div class="mt-6 pl-6">
             <h4 class="text-2xl leading-6 font-semibold text-mainTitle">Mountain Hiking Tour</h4>
-            <p class="mt-[14px] text-[14px] leading-[14px]">Mountain Hiking Tour</p>
+            <p class="mt-useful text-paragraph leading-[14px]">Mountain Hiking Tour</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -186,18 +186,18 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-[11px] text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
               Book Now
             </button>
           </div>
         </li>
         <li class="max-w-[388px] max-h-[440px]  border-2 border-white rounded-2xl shadow hover:shadow-3xl cursor-pointer">
           <div class="pt-3 px-3">
-            <img src="./assets/images/destination-2.png" alt="sea">
+            <img src="./assets/images/destination-2.png" alt="desert">
           </div>
           <div class="mt-6 pl-6">
             <h4 class="text-2xl leading-6 font-semibold text-mainTitle">Machu Picchu, Peru</h4>
-            <p class="mt-[14px] text-[14px] leading-[14px]">Machu Picchu, Peru</p>
+            <p class="mt-useful text-paragraph leading-[14px]">Machu Picchu, Peru</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -206,18 +206,18 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-[11px] text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
               Book Now
             </button>
           </div>
         </li>
         <li class="max-w-[388px] max-h-[440px]  border-2 border-white rounded-2xl shadow hover:shadow-3xl cursor-pointer">
           <div class="pt-3 px-3">
-            <img src="./assets/images/destination-3.png" alt="sea">
+            <img src="./assets/images/destination-3.png" alt="canyon">
           </div>
           <div class="mt-6 pl-6">
             <h4 class="text-2xl leading-6 font-semibold text-mainTitle">The Grand Canyon, Arizona</h4>
-            <p class="mt-[14px] text-[14px] leading-[14px]">Mountain Hiking Tour</p>
+            <p class="mt-useful text-paragraph leading-[14px]">Mountain Hiking Tour</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -226,18 +226,18 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-[11px] text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
               Book Now
             </button>
           </div>
         </li>
-        <li class="max-w-[388px] max-h-[440px]  border-2 border-white rounded-2xl shadow hover:shadow-3xl cursor-pointer">
+        <li class="max-w-[388px] max-h-[440px] border-2 border-white rounded-2xl shadow hover:shadow-3xl cursor-pointer">
           <div class="pt-3 px-3">
-            <img src="./assets/images/destination-4.png" alt="sea">
+            <img src="./assets/images/destination-4.png" alt="Rome">
           </div>
           <div class="mt-6 pl-6">
             <h4 class="text-2xl leading-6 font-semibold text-mainTitle">Rome, Italy</h4>
-            <p class="mt-[14px] text-[14px] leading-[14px]">Mountain Hiking Tour</p>
+            <p class="mt-useful text-paragraph leading-[14px]">Mountain Hiking Tour</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -246,7 +246,7 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-[11px] text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
               Book Now
             </button>
           </div>
@@ -260,27 +260,27 @@
       <p class="mb-7 text-center">Sost Brilliant reasons Entrada should be your one-stop-shop!</p>
       <ul class="flex justify-center flex-wrap gap-[14px] mb-[51px]">
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
             London
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
             Bangkok
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
             England
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
             Singapore
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-[14px] leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
             Italy
           </button>
         </li>
@@ -288,70 +288,70 @@
       <div class="flex flex-wrap justify-center gap-[30px] pb-[37px]">
         <div class="flex flex-col gap-[26px]">
           <div class="relative">
-            <img src="./assets/images/top-destination-1.png" alt="">
+            <img src="./assets/images/top-destination-1.png" alt="house with man">
             <span
-              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-[14px] rounded-2xl bg-white text-mainTitle"
+              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-white text-mainTitle"
             >3.5</span>
             <div class="flex flex-col absolute left-6 bottom-6">
               <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-              <span class="text-[14px] text-white">Worefall</span>
+              <span class="text-paragraph text-white">Worefall</span>
             </div>
           </div>
           <div class="relative">
-            <img src="./assets/images/top-destination-2.png" alt="">
+            <img src="./assets/images/top-destination-2.png" alt="the corner of the house">
             <span
-              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-[14px] rounded-2xl bg-white text-mainTitle"
+              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-white text-mainTitle"
             >3.5</span>
             <div class="flex flex-col absolute left-6 bottom-6">
               <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-              <span class="text-[14px] text-white">Worefall</span>
+              <span class="text-paragraph text-white">Worefall</span>
             </div>
           </div>
         </div>
         <div>
           <div class="relative">
-            <img src="./assets/images/top-destination-3.png" alt="">
+            <img src="./assets/images/top-destination-3.png" alt="the corner of the house and flowers">
             <span
-              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-[14px] rounded-2xl bg-mainTitle text-white"
+              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
             >3.5</span>
             <div class="flex flex-col absolute left-6 bottom-6">
               <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-              <span class="text-[14px] text-white">Worefall</span>
+              <span class="text-paragraph text-white">Worefall</span>
             </div>
           </div>
         </div>
         <div class="flex flex-col gap-[13px]">
           <div>
             <div class="relative">
-              <img src="./assets/images/top-destination-4.png" alt="">
+              <img src="./assets/images/top-destination-4.png" alt="bridge">
               <span
-                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-[14px] rounded-2xl bg-mainTitle text-white"
+                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
               >3.5</span>
               <div class="flex flex-col absolute left-6 bottom-6">
                 <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-                <span class="text-[14px] text-white">Worefall</span>
+                <span class="text-paragraph text-white">Worefall</span>
               </div>
             </div>
           </div>
           <div class="flex gap-[30px] flex-wrap">
             <div class="relative">
-              <img src="./assets/images/top-destination-5.png" alt="">
+              <img src="./assets/images/top-destination-5.png" alt="castle">
               <span
-                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-[14px] rounded-2xl bg-mainTitle text-white"
+                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
               >3.5</span>
               <div class="flex flex-col absolute left-6 bottom-6">
                 <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-                <span class="text-[14px] text-white">Worefall</span>
+                <span class="text-paragraph text-white">Worefall</span>
               </div>
             </div>
             <div class="relative">
-              <img src="./assets/images/top-destination-6.png" alt="">
+              <img src="./assets/images/top-destination-6.png" alt="big ben">
               <span
-                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-[14px] rounded-2xl bg-mainTitle text-white"
+                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
               >3.5</span>
               <div class="flex flex-col absolute left-6 bottom-6">
                 <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-                <span class="text-[14px] text-white">Worefall</span>
+                <span class="text-paragraph text-white">Worefall</span>
               </div>
             </div>
           </div>
@@ -396,12 +396,12 @@
       </div>
     </div>
     <div class="max-w-[1170px] max-h-[358px] py-[75px] bg-formBg bg-formImg rounded-[30px]">
-      <h2 class="text-center font-semibold text-10 mb-4 leading-10 text-mainTitle tracking-[0.0015em]">
+      <h2 class="text-[40px] text-center font-semibold mb-4 leading-10 text-mainTitle tracking-[0.0015em]">
         Sign up to our newsletter
       </h2>
-      <p class="mb-[40px] text-center leading-[26px] m-auto text-mainTitle max-w-[415px]">Reciev latest news, update, and many other things every week. </p>
+      <p class="mb-10 text-center leading-[26px] m-auto text-mainTitle max-w-[415px]">Reciev latest news, update, and many other things every week. </p>
       <form class="relative flex justify-center">
-        <input class=" w-[450px] h-[60px] pl-5 rounded-xl  placeholder:text-[14px]" type="text" placeholder="Enter Your email address">
+        <input class=" w-[450px] h-[60px] pl-5 rounded-xl  placeholder:text-paragraph" type="text" placeholder="Enter Your email address">
         <button class="absolute top-[18%] left-[65%] w-10 h-10 rounded-xl bg-orange shadow hover:shadow-4xl" type="submit">
           <img class="absolute top-3 left-[11px]" src="./assets/images/form-letter.svg" alt="">
         </button>
@@ -446,16 +446,16 @@
           <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Resources</h2>
           <nav class="list-none">
             <li>
-              <a class="leading-[34px] text-[14px]">Download</a>
+              <a class="leading-[34px] text-paragraph">Download</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px]">Help Center</a>
+              <a class="leading-[34px] text-paragraph">Help Center</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px]">Guide Book</a>
+              <a class="leading-[34px] text-paragraph">Guide Book</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px] whitespace-nowrap">App Directory</a>
+              <a class="leading-[34px] text-paragraph whitespace-nowrap">App Directory</a>
             </li>
           </nav>
         </div>
@@ -463,16 +463,16 @@
           <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Travellers</h2>
           <nav class="list-none">
             <li>
-              <a class="leading-[34px] text-[14px]">Why Travellers</a>
+              <a class="leading-[34px] text-paragraph">Why Travellers</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px]">Enterprice</a>
+              <a class="leading-[34px] text-paragraph">Enterprice</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px] whitespace-nowrap">Customer Stories</a>
+              <a class="leading-[34px] text-paragraph whitespace-nowrap">Customer Stories</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px]">Instagram post</a>
+              <a class="leading-[34px] text-paragraph">Instagram post</a>
             </li>
           </nav>
         </div>
@@ -480,16 +480,16 @@
           <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Company</h2>
           <nav class="list-none ">
             <li>
-              <a class="leading-[34px] text-[14px]">Travelling</a>
+              <a class="leading-[34px] text-paragraph">Travelling</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px] whitespace-nowrap">About Locato</a>
+              <a class="leading-[34px] text-paragraph whitespace-nowrap">About Locato</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px]">Success</a>
+              <a class="leading-[34px] text-paragraph">Success</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px]">Information</a>
+              <a class="leading-[34px] text-paragraph">Information</a>
             </li>
           </nav>
         </div>
@@ -497,10 +497,10 @@
           <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Get App</h2>
           <nav class="list-none ">
             <li>
-              <a class="leading-[34px] text-[14px]">App Store</a>
+              <a class="leading-[34px] text-paragraph">App Store</a>
             </li>
             <li>
-              <a class="leading-[34px] text-[14px] whitespace-nowrap">Google Play Store</a>
+              <a class="leading-[34px] text-paragraph whitespace-nowrap">Google Play Store</a>
             </li>
           </nav>
         </div>
