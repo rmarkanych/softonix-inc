@@ -9,7 +9,7 @@
               <img class="flex justify-center items-center" src="./assets/images/main-logo.svg" alt="Logo">
             </a>
           </li>
-          <li class="mr-9"><a class="relative before:block before:absolute before:h-0.5 before:w-3 before:bg-orange before:top-5" href="#home" aria-label="Read more about us">Home</a></li>
+          <li class="mr-9"><a class="relative before:block before:absolute before:h-0.5 before:w-3 before:bg-orange before:top-[23px]" href="#home" aria-label="Read more about us">Home</a></li>
           <li class="mr-9"><a class=" " href="#about" aria-label="about us link">About us</a></li>
           <li class="mr-9"><a class=" " href="#destination" aria-label="Read more about destination">Destinations</a></li>
           <li class="mr-9"><a class=" " href="#book" aria-label="Read more about tours">Tours</a></li>
@@ -25,11 +25,11 @@
     </header>
     <div class="flex gap-[67px] pt-[74px] pb-[84px] relative">
       <div>
-        <h1 class="font-sen text-[84px] text-mainTitle max-w-[577px] leading-[86px]">Discover the Best Lovely Places</h1>
-        <p class="max-w-[500px] text-[18px] leading-7 mt-[26px]">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
+        <h1 class="font-sen text-[84px] text-mainTitle max-w-[577px] font-bold leading-[86px]">Discover the Best Lovely Places</h1>
+        <p class="max-w-[500px] text-lg leading-7 mt-[26px]">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
         <div class="flex items-center mt-11 bg-locationColor max-w-[500px] h-[76px] rounded-[38px]">
           <div class="ml-7 mr-[68px] before:absolute">
-            <p class="text-[18px] text-mainTitle font-medium leading-[17px]  mb-2">
+            <p class="text-lg text-mainTitle font-medium leading-[17px]  mb-2">
               Where
             </p>
             <div class="flex">
@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="before:block before:absolute before:h-[47px] before:w-px relative inline-block before:top-[-5px] before:left-[-35px] before:bg-divider">
-            <p class="text-[18px] text-mainTitle font-medium leading-[17px] mb-2">
+            <p class="text-lg text-mainTitle font-medium leading-[17px] mb-2">
               Date
             </p>
 
@@ -51,7 +51,7 @@
               <img class="ml-[26px]" src="./assets/images/calendar.svg" alt="calendar">
             </div>
           </div>
-          <div class="bg-orange p-[13px] mr-5 ml-14 rounded-[31px] cursor-pointer">
+          <div class="bg-orange p-[13px] mr-5 ml-14 rounded-full cursor-pointer">
             <img src="./assets/images/search.svg" alt="search">
           </div>
         </div>
@@ -62,7 +62,7 @@
     </div>
     <div class="pt-[97px] pb-8">
       <div class="flex justify-between mb-6">
-        <h2 class="font-semibold text-[56px] leading-[56px] text-mainTitle ">
+        <h2 class="font-semibold text-paragraphXL leading-[56px] text-mainTitle ">
           Categories
         </h2>
         <div class="flex gap-4">
@@ -74,48 +74,48 @@
           </button>
         </div>
       </div>
-      <p class="max-w-[370px] leading-[26px] mb-[60px]">
+      <p class="max-w-[370px] leading-6.5 mb-[60px]">
         Here are lots of interesting destinations to visit, but don’t be confused—they’re already grouped by category.
       </p>
       <ul class="flex gap-[30px] flex-wrap justify-center">
         <li class="box">
           <img src="./assets/images/categories-1.png" alt="beach">
-          <h3 class="text-center mt-[18px] text-[26px] leading-[26px] font-medium text-mainTitle">Beach</h3>
+          <h3 class="text-center mt-4.5 text-paragraphL leading-6.5 font-medium text-mainTitle">Beach</h3>
           <div class="overlay">
             <p>Visite</p>
           </div>
         </li>
         <li class="box">
           <img src="./assets/images/categories-2.png" alt="desert">
-          <h3 class="text-center mt-[18px] text-[26px] leading-[26px] font-medium text-mainTitle">Desert</h3>
+          <h3 class="text-center mt-4.5 text-paragraphL leading-6.5 font-medium text-mainTitle">Desert</h3>
           <div class="overlay">
             <p>Visite</p>
           </div>
         </li>
         <li class="box">
           <img src="./assets/images/categories-3.png" alt="mountain">
-          <h3 class="text-center mt-[18px] text-[26px] leading-[26px] font-medium text-mainTitle">Mountain</h3>
+          <h3 class="text-center mt-4.5 text-paragraphL leading-6.5 font-medium text-mainTitle">Mountain</h3>
           <div class="overlay">
             <p>Visite</p>
           </div>
         </li>
         <li class="box">
           <img src="./assets/images/categories-4.png" alt="temple">
-          <h3 class="text-center mt-[18px] text-[26px] leading-[26px] font-medium text-mainTitle">Temple</h3>
+          <h3 class="text-center mt-4.5 text-paragraphL leading-6.5 font-medium text-mainTitle">Temple</h3>
           <div class="overlay">
             <p>Visite</p>
           </div>
         </li>
         <li class="box">
           <img src="./assets/images/categories-5.png" alt="tower">
-          <h3 class="text-center mt-[18px] text-[26px] leading-[26px] font-medium text-mainTitle">Tower</h3>
+          <h3 class="text-center mt-4.5 text-paragraphL leading-6.5 font-medium text-mainTitle">Tower</h3>
           <div class="overlay">
             <p>Visite</p>
           </div>
         </li>
         <li class="box">
           <img src="./assets/images/categories-6.png" alt="pyramid">
-          <h3 class="text-center mt-[18px] text-[26px] leading-[26px] font-medium text-mainTitle">Pyramid</h3>
+          <h3 class="text-center mt-4.5 text-paragraphL leading-6.5 font-medium text-mainTitle">Pyramid</h3>
           <div class="overlay">
             <p>Visite</p>
           </div>
@@ -132,24 +132,24 @@
       <div class="max-w-[538px]">
         <div class="max-w-[467px]">
           <p class="mb-5 text-xl font-semibold text-orange leading-5 tracking-[0.2em]">Our Experience</p>
-          <h2 class="mb-5 font-semibold text-[56px] leading-[66px] text-mainTitle ">
+          <h2 class="mb-5 font-semibold text-paragraphXL leading-[66px] text-mainTitle ">
             Our Stories Have Adventures
           </h2>
-          <p class="mb-10 leading-[26px]">
+          <p class="mb-10 leading-6.5">
             We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the world as our specialties. Start your adventure now! Nature has already called you!
           </p>
         </div>
         <ul class="flex gap-5">
-          <li class="min-w-[166px] min-h-[178px] bg-white rounded-[14px]">
-            <p class="pt-[30px] pl-[26px] pr-[30px] mb-[18px] text-[46px] text-orange leading-[46px] font-semibold">12K+</p>
+          <li class="min-w-[166px] min-h-[178px] bg-white rounded-2xl">
+            <p class="pt-[30px] pl-[26px] pr-[30px] mb-4.5 text-[46px] text-orange leading-[46px] font-semibold">12K+</p>
             <p class="pl-[26px] pr-[54px] pb-[26px] text-[21px] leading-[29px]">Succes Journey</p>
           </li>
-          <li class="min-w-[166px] min-h-[178px] bg-white rounded-[14px]">
-            <p class="pt-[30px] pl-[35px] pr-12 mb-[18px] text-[46px] text-orange leading-[46px] font-semibold">16+</p>
+          <li class="min-w-[166px] min-h-[178px] bg-white rounded-2xl">
+            <p class="pt-[30px] pl-[35px] pr-12 mb-4.5 text-[46px] text-orange leading-[46px] font-semibold">16+</p>
             <p class="pl-[35px] pr-[45px] pb-[26px] text-[21px] leading-[29px]">Awards Winning</p>
           </li>
-          <li class="min-w-[166px] min-h-[178px] bg-white rounded-[14px]">
-            <p class="pt-[30px] pl-[28px] pr-[47px] mb-[18px] text-[46px] text-orange leading-[46px] font-semibold">20+</p>
+          <li class="min-w-[166px] min-h-[178px] bg-white rounded-2xl">
+            <p class="pt-[30px] pl-[28px] pr-[47px] mb-4.5 text-[46px] text-orange leading-[46px] font-semibold">20+</p>
             <p class="pl-[28px] pr-[23px] pb-[26px] text-[21px] leading-[29px]">Years Of Experience</p>
           </li>
         </ul>
@@ -157,7 +157,7 @@
     </div>
     <div id="book" class="pt-[82px]">
       <div class="flex justify-between items-center mb-9 ">
-        <h2 class="max-w-[400px] font-semibold text-[56px] leading-[66px] text-mainTitle ">
+        <h2 class="max-w-[400px] font-semibold text-paragraphXL leading-[66px] text-mainTitle ">
           Find Popular
           Destination
         </h2>
@@ -177,7 +177,7 @@
           </div>
           <div class="mt-6 pl-6">
             <h3 class="text-2xl leading-6 font-semibold text-mainTitle">Mountain Hiking Tour</h3>
-            <p class="mt-useful text-paragraph leading-[14px]">Mountain Hiking Tour</p>
+            <p class="mt-3.5 text-sm leading-3.5">Mountain Hiking Tour</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -186,7 +186,7 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center outline  text-mainTitle rounded-4xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle ">
               Book Now
             </button>
           </div>
@@ -197,7 +197,7 @@
           </div>
           <div class="mt-6 pl-6">
             <h3 class="text-2xl leading-6 font-semibold text-mainTitle">Machu Picchu, Peru</h3>
-            <p class="mt-useful text-paragraph leading-[14px]">Machu Picchu, Peru</p>
+            <p class="mt-3.5 text-sm leading-3.5">Machu Picchu, Peru</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -206,7 +206,7 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center outline text-mainTitle rounded-4xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle ">
               Book Now
             </button>
           </div>
@@ -217,7 +217,7 @@
           </div>
           <div class="mt-6 pl-6">
             <h3 class="text-2xl leading-6 font-semibold text-mainTitle">The Grand Canyon, Arizona</h3>
-            <p class="mt-useful text-paragraph leading-[14px]">Mountain Hiking Tour</p>
+            <p class="mt-3.5 text-sm leading-3.5">Mountain Hiking Tour</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -226,7 +226,7 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center outline text-mainTitle rounded-4xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle">
               Book Now
             </button>
           </div>
@@ -237,7 +237,7 @@
           </div>
           <div class="mt-6 pl-6">
             <h3 class="text-2xl leading-6 font-semibold text-mainTitle">Rome, Italy</h3>
-            <p class="mt-useful text-paragraph leading-[14px]">Mountain Hiking Tour</p>
+            <p class="mt-3.5 text-sm leading-3.5">Mountain Hiking Tour</p>
           </div>
           <div class="flex justify-between items-center px-6 pb-9 mt-[27px]">
             <p class="leading-5">
@@ -246,7 +246,7 @@
               </span>
               /Person
             </p>
-            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+            <button class="max-w-[102px] max-h-[37px] px-4 pt-3 pb-3 text-center outline text-mainTitle rounded-4xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle">
               Book Now
             </button>
           </div>
@@ -254,33 +254,33 @@
       </ul>
     </div>
     <div class="pt-[120px] pb-[37px]">
-      <h2 id="destination" class="mb-4 text-[56px] leading-[66px] font-semibold text-center text-mainTitle">
+      <h2 id="destination" class="mb-4 text-paragraphXL leading-[66px] font-semibold text-center text-mainTitle">
         Top Destinations
       </h2>
       <p class="mb-7 text-center">Sost Brilliant reasons Entrada should be your one-stop-shop!</p>
       <ul class="flex justify-center flex-wrap gap-[14px] mb-[51px]">
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-8.5 font-poppins px-5 pt-2.5 pb-2.5 text-center outline text-mainTitle rounded-3xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle  ">
             London
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-8.5 font-poppins px-5 pt-2.5 pb-2.5 text-center outline text-mainTitle rounded-3xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle  ">
             Bangkok
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-8.5 font-poppins px-5 pt-2.5 pb-2.5 text-center outline text-mainTitle rounded-3xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle  ">
             England
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-8.5 font-poppins px-5 pt-2.5 pb-2.5 text-center outline text-mainTitle rounded-3xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle  ">
             Singapore
           </button>
         </li>
         <li>
-          <button class=" max-h-[34px] px-5 pt-2.5 pb-2.5 text-center border border-solid text-mainTitle rounded-[46px] text-paragraph leading-[14px] hover:bg-mainTitle hover:text-white ">
+          <button class=" max-h-8.5 font-poppins px-5 pt-2.5 pb-2.5 text-center outline text-mainTitle rounded-3xl text-sm leading-3.5 hover:bg-mainTitle hover:text-white hover:outline-mainTitle  ">
             Italy
           </button>
         </li>
@@ -290,21 +290,21 @@
           <div class="relative">
             <img src="./assets/images/top-destination-1.png" alt="house with man">
             <span
-              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-white text-mainTitle"
+              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-sm rounded-2xl bg-white text-mainTitle"
             >3.5</span>
             <div class="flex flex-col absolute left-6 bottom-6">
               <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-              <span class="text-paragraph text-white">Worefall</span>
+              <span class="text-sm text-white">Worefall</span>
             </div>
           </div>
           <div class="relative">
             <img src="./assets/images/top-destination-2.png" alt="the corner of the house">
             <span
-              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-white text-mainTitle"
+              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-sm rounded-2xl bg-white text-mainTitle"
             >3.5</span>
             <div class="flex flex-col absolute left-6 bottom-6">
               <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-              <span class="text-paragraph text-white">Worefall</span>
+              <span class="text-sm text-white">Worefall</span>
             </div>
           </div>
         </div>
@@ -312,11 +312,11 @@
           <div class="relative">
             <img src="./assets/images/top-destination-3.png" alt="the corner of the house and flowers">
             <span
-              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
+              class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-sm rounded-2xl bg-mainTitle text-white"
             >3.5</span>
             <div class="flex flex-col absolute left-6 bottom-6">
               <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-              <span class="text-paragraph text-white">Worefall</span>
+              <span class="text-sm text-white">Worefall</span>
             </div>
           </div>
         </div>
@@ -325,11 +325,11 @@
             <div class="relative">
               <img src="./assets/images/top-destination-4.png" alt="bridge">
               <span
-                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
+                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-sm rounded-2xl bg-mainTitle text-white"
               >3.5</span>
               <div class="flex flex-col absolute left-6 bottom-6">
                 <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-                <span class="text-paragraph text-white">Worefall</span>
+                <span class="text-sm text-white">Worefall</span>
               </div>
             </div>
           </div>
@@ -337,21 +337,21 @@
             <div class="relative">
               <img src="./assets/images/top-destination-5.png" alt="castle">
               <span
-                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
+                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-sm rounded-2xl bg-mainTitle text-white"
               >3.5</span>
               <div class="flex flex-col absolute left-6 bottom-6">
                 <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-                <span class="text-paragraph text-white">Worefall</span>
+                <span class="text-sm text-white">Worefall</span>
               </div>
             </div>
             <div class="relative">
               <img src="./assets/images/top-destination-6.png" alt="big ben">
               <span
-                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-paragraph rounded-2xl bg-mainTitle text-white"
+                class="px-2.5 py-0.5 absolute top-6 font-medium left-6 text-sm rounded-2xl bg-mainTitle text-white"
               >3.5</span>
               <div class="flex flex-col absolute left-6 bottom-6">
                 <span class=" font-semibold text-5 leading-5 text-white">Vientam</span>
-                <span class="text-paragraph text-white">Worefall</span>
+                <span class="text-sm text-white">Worefall</span>
               </div>
             </div>
           </div>
@@ -365,17 +365,17 @@
         </div>
       </div>
       <div class="max-w-[537px]">
-        <h2 class="mb-[26px] font-semibold text-[56px] text-mainTitle leading-[66px] capitalize relative before:absolute before:block before:w-[67px] before:h-2 before:bg-pseudo before:rounded before:top-[-12px]">
+        <h2 class="mb-[26px] font-semibold text-paragraphXL text-mainTitle leading-[66px] capitalize relative before:absolute before:block before:w-[67px] before:h-2 before:bg-pseudo before:rounded before:top-[-12px]">
           A customer said about us:
         </h2>
-        <div class="bg-white rounded-[14px]">
+        <div class="bg-white rounded-2xl">
           <p class=" pl-[30px] pt-8 pr-[34px] text-lg leading-[30px]">
             Salty helped me a lot in finding the best place for our first outdoor adventure trip. They responded very quickly and gave me a detailed account of the place—its history, as well as its best features.
           </p>
           <div class="mt-[27px] pl-[30px]">
             <img src="./assets/images/stars.svg" alt="stars">
           </div>
-          <div class="flex justify-between px-[30px] pb-[30px] mt-[17px]">
+          <div class="flex justify-between px-[30px] pb-[30px] mt-4">
             <div>
               <h3 class="mb-2 text-xl leading-5 font-medium text-mainTitle">
                 Andrew Sarma
@@ -383,10 +383,10 @@
               <p class="text-xs leading-3">Enterpreneur</p>
             </div>
             <div class="flex gap-4">
-              <button class="px-[19px] py-[15px] border border-solid border-mainTitle rounded-full">
+              <button class="px-5 py-4 border border-solid border-mainTitle rounded-full">
                 <img src="./assets/images/arrow-l.svg" alt="arrow left">
               </button>
-              <button class="px-[19px] py-[15px] bg-mainTitle border border-solid border-mainTitle rounded-full">
+              <button class="px-5 py-4 bg-mainTitle border border-solid border-mainTitle rounded-full">
                 <img src="./assets/images/arrow-r.svg" alt="arrow right">
               </button>
             </div>
@@ -394,14 +394,14 @@
         </div>
       </div>
     </div>
-    <div class="max-w-[1170px] max-h-[358px] py-[75px] bg-formBg bg-formImg rounded-[30px]">
+    <div class="max-w-[1170px] max-h-[358px] py-[75px] bg-formBg bg-formImg rounded-3xl">
       <h2 class="text-[40px] text-center font-semibold mb-4 leading-10 text-mainTitle tracking-[0.0015em]">
         Sign up to our newsletter
       </h2>
-      <p class="mb-10 text-center leading-[26px] m-auto text-mainTitle max-w-[415px]">Reciev latest news, update, and many other things every week. </p>
+      <p class="mb-10 text-center leading-6.5 m-auto text-mainTitle max-w-[415px]">Reciev latest news, update, and many other things every week. </p>
       <form class=" flex justify-center">
         <div class="relative">
-          <input class=" w-[450px] h-[60px] pl-5 rounded-xl  placeholder:text-paragraph" type="text" placeholder="Enter Your email address">
+          <input class=" w-[450px] h-[60px] pl-5 rounded-xl  placeholder:text-sm" type="text" placeholder="Enter Your email address">
           <button class="absolute top-2.5 left-[400px] w-10 h-10 rounded-xl bg-orange shadow hover:shadow-4xl" type="submit">
             <img class="absolute top-3 left-[11px]" src="./assets/images/form-letter.svg" alt="letter icon">
           </button>
@@ -444,64 +444,64 @@
       </div>
       <div class="flex gap-[113px]">
         <div>
-          <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Resources</h2>
+          <h2 class="text-lg font-medium text-mainTitle mb-[22px]">Resources</h2>
           <ul class="list-none">
             <li>
-              <a href="#" aria-label="Download" class="leading-[34px] text-paragraph">Download</a>
+              <a href="#" aria-label="Download" class="leading-8.5 text-sm">Download</a>
             </li>
             <li>
-              <a href="#" aria-label="Help Center" class="leading-[34px] text-paragraph">Help Center</a>
+              <a href="#" aria-label="Help Center" class="leading-8.5 text-sm">Help Center</a>
             </li>
             <li>
-              <a href="#" aria-label="Guide Book" class="leading-[34px] text-paragraph">Guide Book</a>
+              <a href="#" aria-label="Guide Book" class="leading-8.5 text-sm">Guide Book</a>
             </li>
             <li>
-              <a href="#" aria-label="App Directory" class="leading-[34px] text-paragraph whitespace-nowrap">App Directory</a>
+              <a href="#" aria-label="App Directory" class="leading-8.5 text-sm whitespace-nowrap">App Directory</a>
             </li>
           </ul>
         </div>
         <div>
-          <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Travellers</h2>
+          <h2 class="text-lg font-medium text-mainTitle mb-[22px]">Travellers</h2>
           <ul class="list-none">
             <li>
-              <a href="#" aria-label="Why Travellers" class="leading-[34px] text-paragraph">Why Travellers</a>
+              <a href="#" aria-label="Why Travellers" class="leading-8.5 text-sm">Why Travellers</a>
             </li>
             <li>
-              <a href="#" aria-label="Enterprice" class="leading-[34px] text-paragraph">Enterprice</a>
+              <a href="#" aria-label="Enterprice" class="leading-8.5 text-sm">Enterprice</a>
             </li>
             <li>
-              <a href="#" aria-label="Customer Stories" class="leading-[34px] text-paragraph whitespace-nowrap">Customer Stories</a>
+              <a href="#" aria-label="Customer Stories" class="leading-8.5 text-sm whitespace-nowrap">Customer Stories</a>
             </li>
             <li>
-              <a href="#" aria-label="Instagram post" class="leading-[34px] text-paragraph">Instagram post</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Company</h2>
-          <ul class="list-none ">
-            <li>
-              <a href="#" aria-label="Travelling" class="leading-[34px] text-paragraph">Travelling</a>
-            </li>
-            <li>
-              <a href="#" aria-label="About Locato" class="leading-[34px] text-paragraph whitespace-nowrap">About Locato</a>
-            </li>
-            <li>
-              <a href="#" aria-label="Success" class="leading-[34px] text-paragraph">Success</a>
-            </li>
-            <li>
-              <a href="#" aria-label="Information" class="leading-[34px] text-paragraph">Information</a>
+              <a href="#" aria-label="Instagram post" class="leading-8.5 text-sm">Instagram post</a>
             </li>
           </ul>
         </div>
         <div>
-          <h2 class="text-[18px] font-medium text-mainTitle mb-[22px]">Get App</h2>
+          <h2 class="text-lg font-medium text-mainTitle mb-[22px]">Company</h2>
           <ul class="list-none ">
             <li>
-              <a href="#" aria-label="App Store" class="leading-[34px] text-paragraph">App Store</a>
+              <a href="#" aria-label="Travelling" class="leading-8.5 text-sm">Travelling</a>
             </li>
             <li>
-              <a href="#" aria-label="Google Play Store" class="leading-[34px] text-paragraph whitespace-nowrap">Google Play Store</a>
+              <a href="#" aria-label="About Locato" class="leading-8.5 text-sm whitespace-nowrap">About Locato</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Success" class="leading-8.5 text-sm">Success</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Information" class="leading-8.5 text-sm">Information</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-lg font-medium text-mainTitle mb-[22px]">Get App</h2>
+          <ul class="list-none ">
+            <li>
+              <a href="#" aria-label="App Store" class="leading-8.5 text-sm">App Store</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Google Play Store" class="leading-8.5 text-sm whitespace-nowrap">Google Play Store</a>
             </li>
           </ul>
         </div>

@@ -45,13 +45,27 @@ module.exports = {
     extend: {
       boxShadow: {
         '3xl': '0px 24px 90px rgba(192, 188, 161, 0.22)',
-        '4xl': ' 0px 5px 13px rgba(222, 45, 0, 0.7)'
+        '4xl': '0px 5px 13px rgba(222, 45, 0, 0.7)'
       },
       fontSize: {
-        paragraph: '14px'
+        paragraphL: '26px',
+        paragraphXL: '56px'
+      },
+      lineHeight: {
+        3.5: '14px',
+        6.5: '26px',
+        8.5: '34px'
       },
       margin: {
-        useful: '14px'
+        4.5: '18px'
+      },
+      maxHeight: {
+        8.5: '34px'
+      },
+      borderRadius: {
+        '2xl': '14px',
+        '3xl': '30px',
+        '4xl': '46px'
       },
       backgroundImage: {
         formImg: "url('../../assets/images/form-icon.svg')",
