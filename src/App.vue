@@ -2,29 +2,31 @@
 <template>
   <div class="app-container">
     <header class="py-6">
-      <div class="flex">
-        <a class="flex justify-center items-center mr-[72px]" href="./" aria-label="Redirect to page">
+      <div class="flex md:justify-center lg:justify-start flex-col md:flex-row">
+        <a class="flex justify-end items-center md:mr-[72px]" href="./" aria-label="Redirect to page">
           <img class="flex justify-center items-center" src="./assets/images/main-logo.svg" alt="Logo">
         </a>
-        <ul class="hidden md:flex items-center font-poppins leading-4 text-blue ">
-          <li class="mr-9"><a class="relative before:block before:absolute before:h-0.5 before:w-3 before:bg-orange before:top-[23px]" href="#home" aria-label="Read more about us">Home</a></li>
-          <li class="mr-9"><a class=" " href="#about" aria-label="about us link">About us</a></li>
-          <li class="mr-9"><a class=" " href="#destination" aria-label="Read more about destination">Destinations</a></li>
-          <li class="mr-9"><a class=" " href="#book" aria-label="Read more about tours">Tours</a></li>
-          <li><a class=" " href="#blog" aria-label="Read more about our blog">Blog</a></li>
-        </ul>
-        <div class="flex ml-[383px]">
-          <a class="flex items-center justify-center font-poppins leading-4 text-orange w-[170px] h-[54px] border border-solid border-orange rounded-[27px] font-medium cursor-pointer shadow hover:shadow-4xl " href="#book" aria-label="Read more about tours">
-            Book Now
-            <img class="ml-1.5" src="./assets/images/letter.svg" alt="letter">
-          </a>
+        <div class="mt-7 md:mt-0 flex flex-col-reverse md:flex-row gap-8 lg:gap-24 xl:gap-[383px]">
+          <ul class="flex  flex-wrap justify-center items-center font-poppins leading-4 text-blue ">
+            <li class="mr-3 lg:mr-9 p-1 sm:p-0"><a class="relative before:block before:absolute before:h-0.5 before:w-3 before:bg-orange before:top-[23px]" href="#home" aria-label="Read more about us">Home</a></li>
+            <li class="mr-3 lg:mr-9 p-1 sm:p-0"><a class="whitespace-nowrap " href="#about" aria-label="about us link ">About us</a></li>
+            <li class="mr-3 lg:mr-9 p-1 sm:p-0"><a class=" " href="#destination" aria-label="Read more about destination">Destinations</a></li>
+            <li class="mr-3 lg:mr-9 p-1 sm:p-0"><a class=" " href="#book" aria-label="Read more about tours">Tours</a></li>
+            <li><a class=" p-1 sm:p-0" href="#blog" aria-label="Read more about our blog">Blog</a></li>
+          </ul>
+          <div class="absolute top-2 md:static flex justify-center mt-2 lg:mt-0 ">
+            <a class="flex items-center justify-center font-poppins leading-4 text-orange w-[170px] h-[54px] border border-solid border-orange rounded-[27px] font-medium cursor-pointer shadow hover:shadow-4xl " href="#book" aria-label="Read more about tours">
+              Book Now
+              <img class="ml-1.5" src="./assets/images/letter.svg" alt="letter">
+            </a>
+          </div>
         </div>
       </div>
     </header>
-    <div class="flex gap-[67px] pt-[74px] pb-[84px] relative">
-      <div>
-        <h1 class="font-sen text-[84px] text-mainTitle max-w-[577px] font-bold leading-[86px]">Discover the Best Lovely Places</h1>
-        <p class="max-w-[500px] text-lg leading-7 mt-[26px]">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
+    <div class="block lg:flex xl:gap-[67px]  xl:pb-12 ">
+      <div class="max-w-full flex flex-col justify-center items-center lg:items-start">
+        <h1 class="font-sen text-center lg:text-left text-[52px] xl:text-[84px] text-mainTitle max-w-[577px] font-bold xl:leading-[86px]">Discover the Best Lovely Places</h1>
+        <p class="max-w-[500px] xl:text-left text-lg leading-7 mt-[26px]">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
         <div class="flex items-center mt-11 bg-locationColor max-w-[500px] h-[76px] rounded-[38px]">
           <div class="ml-7 mr-[68px] before:absolute">
             <p class="text-lg text-mainTitle font-medium leading-[17px]  mb-2">
@@ -54,13 +56,15 @@
           </button>
         </div>
       </div>
-      <div class="absolute top-2.5 right-0">
-        <img src="./assets/images/home.png" alt="man">
+      <div class=" hidden lg:flex lg:relative lg:min-w-[556px] lg:min-h-[632px] ">
+        <div class="lg:absolute lg:top-2.5 lg:right-0">
+          <img src="./assets/images/home.png" alt="man">
+        </div>
       </div>
     </div>
-    <div class="pt-[97px] pb-8">
+    <div class="pt-12 xl:pt-[79px] pb-8">
       <div class="flex flex-wrap flex-col sm:flex-row justify-center items-center sm:justify-between mb-3 lg:mb-6">
-        <h2 class="font-semibold text-3xl lg:text-paragraphXL lg:leading-[56px] text-mainTitle ">
+        <h2 class="font-semibold text-3xl lg:text-paragraphXL lg:leading-[56px] text-mainTitle  ">
           Categories
         </h2>
         <div class="flex gap-4">
@@ -72,7 +76,7 @@
           </button>
         </div>
       </div>
-      <p class="max-w-[370px] leading-6.5 mb-6 lg:mb-[60px] m-auto sm:ml-0">
+      <p class="max-w-[370px] leading-6.5 mb-6 lg:mb-[60px] m-auto sm:ml-0 text-center sm:text-start">
         Here are lots of interesting destinations to visit, but don’t be confused—they’re already grouped by category.
       </p>
       <ul class="flex gap-[30px] flex-wrap justify-center">
@@ -122,31 +126,31 @@
     </div>
 
     <div id="about" class="flex flex-col-reverse items-center lg:flex-row gap-4 xl:gap-[77px] pt-20 xl:pt-[168px] pb-0 xl:pb-[82px] ">
-      <div class="relative lg:min-w-[556px] lg:min-h-[562px]  lg:p-0">
+      <div class="relative lg:min-w-[556px] lg:min-h-[632px]  lg:p-0">
         <div class="lg:absolute top-0 lg:top-[-60px] left-0 lg:left-[-35px]">
-          <img class="max-w-[420px] lg:min-h-[582px] lg:min-w-[541px]" src="./assets/images/about-us.png" alt="man with camera">
+          <img class="max-w-[420px] lg:min-h-[632px] lg:min-w-[592px]" src="./assets/images/about-us.png" alt="man with camera">
         </div>
       </div>
-      <div class="max-w-[538px] ">
-        <div class="max-w-[467px] m-auto">
-          <p class="mb-3 xl:mb-5 text-xl font-semibold text-orange leading-5 tracking-[0.2em]">Our Experience</p>
-          <h2 class="mb-3 xl:mb-5 font-semibold text-3xl xl:text-paragraphXL leading-[66px] text-mainTitle ">
+      <div class="max-w-[538px]  ">
+        <div class="max-w-[467px] m-auto ">
+          <p class="mb-3 xl:mb-5 text-xl font-semibold text-orange leading-5 text-center lg:text-start tracking-[0.2em]">Our Experience</p>
+          <h2 class="mb-3 xl:mb-5 font-semibold text-3xl xl:text-paragraphXL text-center lg:text-start leading-[66px] text-mainTitle ">
             Our Stories Have Adventures
           </h2>
-          <p class=" mb-4 lg:mb-10 text-sm lg:text-base leading-6.5 max-w-[467px]">
+          <p class=" mb-4 lg:mb-10 text-sm lg:text-base leading-6.5 max-w-[467px] text-center lg:text-start">
             We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the world as our specialties. Start your adventure now! Nature has already called you!
           </p>
         </div>
         <ul class="flex gap-5 flex-wrap justify-center xl:flex-nowrap">
-          <li class="h-full lg:min-w-[166px] lg:min-h-[178px] bg-expBg rounded-2xl">
+          <li class="h-full xl:min-w-[166px] xl:min-h-[178px] bg-expBg rounded-2xl">
             <p class=" p-3 xl:pt-[30px] xl:pl-[26px] xl:pr-[30px] mb-0 xl:mb-4.5 text-3xl xl:text-[46px] text-orange leading-[46px] font-semibold">12K+</p>
             <p class="p-3 xl:pl-[26px] xl:pr-[54px] xl:pb-[26px] text-[21px] leading-[29px]">Succes Journey</p>
           </li>
-          <li class="h-full lg:min-w-[166px] lg:min-h-[178px] bg-expBg rounded-2xl">
+          <li class="h-full xl:min-w-[166px] xl:min-h-[178px] bg-expBg rounded-2xl">
             <p class="p-3 xl:pt-[30px] xl:pl-[35px] xl:pr-12 mb-0 xl:mb-4.5 text-3xl xl:text-[46px] text-orange leading-[46px] font-semibold">16+</p>
             <p class="p-3 xl:pl-[35px] xl:pr-[45px] xl:pb-[26px] text-[21px] leading-[29px]">Awards Winning</p>
           </li>
-          <li class="h-full lg:min-w-[166px] lg:min-h-[178px] bg-expBg rounded-2xl">
+          <li class="h-full xl:min-w-[166px] xl:min-h-[178px] bg-expBg rounded-2xl">
             <p class="p-3 xl:pt-[30px] xl:pl-[28px] xl:pr-[47px] mb-0 xl:mb-4.5 text-3xl xl:text-[46px] text-orange leading-[46px] font-semibold">20+</p>
             <p class="p-3 xl:pl-[28px] xl:pr-[23px] xl:pb-[26px] text-[21px] leading-[29px]">Years Of Experience</p>
           </li>
@@ -409,17 +413,17 @@
         </label>
       </form>
     </div>
-    <div class="flex justify-center sm:justify-start sm:gap-[275px] pt-20 pb-16 xl:pt-[145px] xl:pb-[79px]">
+    <div class="flex justify-center lg:justify-between lg:gap-[200px] xl:gap-[275px] pt-20 pb-16 xl:pt-[145px] xl:pb-[79px]">
       <div>
         <div class="flex flex-col mb-10 justify-center">
-          <a class="mb-5 flex justify-center sm:justify-start" href="./" aria-label="Redirect to main page">
+          <a class="mb-5 flex justify-center lg:justify-start" href="./" aria-label="Redirect to main page">
             <img class="flex justify-center items-center" src="./assets/images/main-logo.svg" alt="Logo">
           </a>
-          <p class="max-w-full sm:max-w-[141px] leading-6.5">
+          <p class="max-w-full lg:max-w-[141px] leading-6.5">
             Enjoy the touring with Salty
           </p>
         </div>
-        <ul class="justify-center sm:justify-start flex gap-[14px]">
+        <ul class="justify-center lg:justify-start flex gap-[14px]">
           <li class=" ">
             <a class="flex justify-center items-center rounded-full h-8 w-8 border border-solid cursor-pointer hover:border-orange" href="#" aria-label="Redirect to Facebook">
               <svg class="fill-current hover:fill-orange" width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -443,7 +447,7 @@
           </li>
         </ul>
       </div>
-      <div class="hidden sm:flex gap-[113px]">
+      <div class="hidden lg:flex lg:gap-16 xl:gap-[113px]">
         <div>
           <h2 class="text-lg font-medium text-mainTitle mb-[22px] leading-4.5">Resources</h2>
           <ul class="list-none">
