@@ -9,6 +9,10 @@ html {
   line-height: 26px;
   scroll-behavior: smooth
 }
+::selection {
+  color: #FAF8ED;
+  background-color: #F66F4D;
+}
 
 body {
   @apply font-inter text-base text-primary bg-yellow;

@@ -9,6 +9,7 @@ module.exports = {
   ],
   theme: {
     screens: {
+      xs: '420px',
       sm: '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -18,7 +19,7 @@ module.exports = {
       lg: '1024px',
       // => @media (min-width: 1024px) { ... }
 
-      xl: '1280px',
+      xl: '1210px',
       // => @media (min-width: 1280px) { ... }
 
       '2xl': '1536px'
@@ -35,7 +36,8 @@ module.exports = {
       locationColor: '#FDFEFF',
       locationTxt: '#9498A4',
       divider: '#EAEAEB',
-      formBg: '#FFD482'
+      formBg: '#FFD482',
+      expBg: 'rgba(255, 255, 255, 0.7)'
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
@@ -53,6 +55,7 @@ module.exports = {
       },
       lineHeight: {
         3.5: '14px',
+        4.5: '18px',
         6.5: '26px',
         8.5: '34px'
       },
@@ -69,7 +72,9 @@ module.exports = {
       },
       backgroundImage: {
         formImg: "url('../../assets/images/form-icon.svg')",
-        pseudo: 'linear-gradient(159.99deg, #FFD482 13.35%, #FFBE82 118.92%)'
+        pseudo: 'linear-gradient(159.99deg, #FFD482 13.35%, #FFBE82 118.92%)',
+        dest1: 'linear-gradient(180deg, rgba(30, 30, 28, 0) 62%, rgba(20, 20, 18, 0.9) 100%)',
+        dest2: 'linear-gradient(180deg, rgba(54, 53, 48, 0) 64.7%, rgba(0, 0, 0, 0.9) 100%)'
       }
     }
   },
